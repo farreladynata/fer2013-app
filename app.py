@@ -82,7 +82,7 @@ IMG_SIZE = 48
 # ── Load model ────────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('model_fer2013_cnn.h5')
+    return tf.models.load_model('model_fer2013_cnn.h5')
 
 model = load_model()
 
