@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-import tensorflow as tf
+import tf_keras as tf
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
